@@ -1,0 +1,5 @@
+{
+  "name": "React Firebase Starter",
+  "description": "A starter template with React Router, Firebase, and Vercel configuration.",
+  "requestFramePermissions": []
+}

@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-950: #141d40; /* Very dark blue for main background */
+  --color-brand-900: #202e64; /* The requested dark blue for cards */
+  --color-brand-800: #2e418c; 
+  --color-brand-700: #3f57b8;
+  --color-brand-600: #4964d4;
+  --color-brand-500: #5271FF; /* The requested bright blue */
+  --color-brand-400: #758eff;
+  --color-brand-300: #99aaff;
+  --color-brand-200: #bcc8ff;
+  --color-brand-100: #e0e6ff;
+  --color-brand-50: #f0f3ff;
+  
+  --color-accent-600: #e6b800;
+  --color-accent-500: #fed131; /* The requested yellow */
+  --color-accent-400: #fede66;
+  --color-accent-300: #ffe899;
+}
