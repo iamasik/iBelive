@@ -45,14 +45,18 @@ export default function SlugPage() {
   // as designed, without being affected by the surrounding React app styles.
   if (htmlContent) {
     return (
-      <div className="w-full min-h-screen bg-gray-200 flex justify-center">
-        <iframe
-          title={slug || 'custom-page'}
-          srcDoc={htmlContent}
-          className="w-full max-w-4xl border-0 bg-white"
-          style={{ minHeight: '100vh' }}
-        />
-      </div>
+      <iframe
+        title={slug || 'custom-page'}
+        srcDoc={htmlContent}
+        style={{
+          width: '100vw',
+          height: '100vh',
+          border: '0',
+          margin: 0,
+          padding: 0,
+          display: 'block',
+        }}
+      />
     );
   }
 
